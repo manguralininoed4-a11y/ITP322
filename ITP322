@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ITP 322 - File and Web Server</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+
+    .box {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+
+    a {
+      color: #0b66ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .note {
+      margin-top: 20px;
+      padding: 12px;
+      background: #eef5ff;
+      border-left: 4px solid #0b66ff;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Niño Ed Mangurali</h1>
+    <h2>ITP 322 - Systems Administration</h2>
+
+    <p>
+      This website demonstrates file hosting using Supabase Storage and web hosting using a static site host.
+    </p>
+
+    <h3>Files</h3>
+    <ul>
+      <li><a href="https://weqkfucgbanexilckogv.supabase.co/storage/v1/object/public/ITP322_files/IMG_20260327_165231.jpg" target="_blank">Sample File 1</a></li>
+      <li><a href="https://weqkfucgbanexilckogv.supabase.co/storage/v1/object/public/ITP322_files/IMG_20260409_131147.jpg" target="_blank">Sample File 2</a></li>
+    </ul>
+
+    <h3>Sample Output</h3>
+    <p>
+      Click the file links above to open the hosted files from Supabase Storage.
+    </p>
+
+    <div class="note">
+      Name: Niño Ed Mangurali<br>
+      Section: ITP 322 - Systems Administration
+    </div>
+  </div>
+</body>
+</html>
